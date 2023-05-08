@@ -1,0 +1,106 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SCINet | USDA Scientific Computing Initiative//https://s
+ cinet.usda.gov//Downtime Calendar//EN
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:16011104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+END:DAYLIGHT
+END:VTIMEZONE
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:https://scinet.usda.gov/news/downtime/archive#scinet-mainte
+ nance-site-service-friday-may-19-2023
+DTSTAMP:20230519T000000Z
+DTSTART;TZID=America/New_York:20230519T010000
+DURATION:PT6H
+SUMMARY:SCINet: Maintenance - Site Service - Friday, May 19 - 2023
+DESCRIPTION: <p>Site Service at Ames will be impacted while Lumen perfor
+ ms maintenance. </br>Outages are expected and the entire win
+ dow is reserved. </p>
+ <ul>
+ <li> <b>Outage time: </b> 5-11 UTC <
+ /li>
+ <li> <b>Affected Systems: </b> Site Service </li>
+ <li> <b>
+ Affected Locations: </b> Ames </li>
+ <li> <b>Reason: </b> Mainte
+ nance </li>
+ </ul>
+X-ALT-DESC;FMTTYPE=TEXT/HTML:
+  <p>Site Service at Ames will be impacted while Lumen perfor
+ ms maintenance. </br>Outages are expected and the entire win
+ dow is reserved. </p>
+ <ul>
+ <li> <b>Outage time: </b> 5-11 UTC <
+ /li>
+ <li> <b>Affected Systems: </b> Site Service </li>
+ <li> <b>
+ Affected Locations: </b> Ames </li>
+ <li> <b>Reason: </b> Mainte
+ nance </li>
+ </ul>
+CLASS:PUBLIC
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+URL:https://scinet.usda.gov/news/downtime/archive
+CATEGORIES:SCINet,
+ SCINet | USDA Scientific Computing Initiative,
+ Downtime Calendar
+END:VEVENT
+BEGIN:VEVENT
+UID:https://scinet.usda.gov/news/downtime/archive#scinet-mainte
+ nance-juno-wednesday-may-10-2023
+DTSTAMP:20230510T000000Z
+DTSTART;TZID=America/New_York:20230510T180000
+DURATION:PT8H
+SUMMARY:SCINet: Maintenance - Juno - Wednesday, May 10 - 2023
+DESCRIPTION: <p>At 6:00 PM Eastern on May 10th, the Juno long term stora
+ ge system at Beltsville will be unmounted from SCINet DTNs 
+ and become inaccessible. </br> This is being done in prepara
+ tion for network maintenance to be performed after hours. </
+ br> </br> The storage will be remounted, and access restored
+ , the following morning. </p>
+ <ul>
+ <li> <b>Outage time: </b> 6
+  PM EDT </li>
+ <li> <b>Affected Systems: </b> Juno </li>
+ <li> <b>
+ Affected Locations: </b> all </li>
+ <li> <b>Reason: </b> Mainten
+ ance </li>
+ </ul>
+X-ALT-DESC;FMTTYPE=TEXT/HTML:
+  <p>At 6:00 PM Eastern on May 10th, the Juno long term stora
+ ge system at Beltsville will be unmounted from SCINet DTNs 
+ and become inaccessible. </br> This is being done in prepara
+ tion for network maintenance to be performed after hours. </
+ br> </br> The storage will be remounted, and access restored
+ , the following morning. </p>
+ <ul>
+ <li> <b>Outage time: </b> 6
+  PM EDT </li>
+ <li> <b>Affected Systems: </b> Juno </li>
+ <li> <b>
+ Affected Locations: </b> all </li>
+ <li> <b>Reason: </b> Mainten
+ ance </li>
+ </ul>
+CLASS:PUBLIC
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+URL:https://scinet.usda.gov/news/downtime/archive
+CATEGORIES:SCINet,
+ SCINet | USDA Scientific Computing Initiative,
+ Downtime Calendar
+END:VEVENT
+END:VCALENDAR
